@@ -7,6 +7,7 @@ def perimeter(length, width):
 def area(length, width):
     return length * width
 
+#get user input for width and length to calculate the area and perimeter 
 def userInput():
     width = int(input("Enter the width of the rectangle: "))
     length = int(input("Enter the length of the rectangle: "))
@@ -14,7 +15,9 @@ def userInput():
     print("the area of the rectangle: ", area(length, width))
     print("the perimeter of the rectangle: ", perimeter(length, width))
 
+#main function
 def main():
     userInput()
 
+#call main function
 main()
