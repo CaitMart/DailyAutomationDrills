@@ -7,3 +7,14 @@ def perimeter(length, width):
 def area(length, width):
     return length * width
 
+def userInput():
+    width = int(input("Enter the width of the rectangle: "))
+    length = int(input("Enter the length of the rectangle: "))
+    print("\nResults")
+    print("the area of the rectangle: ", area(length, width))
+    print("the perimeter of the rectangle: ", perimeter(length, width))
+
+def main():
+    userInput()
+
+main()
