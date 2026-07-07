@@ -1,6 +1,9 @@
 #debug the program and find the issue to fix the problem with the result
-
+#exercise 2 zero division error: fix so that the code doesn't crash when the user hasnt entered anything and instead returns zero
 def calculate_grade_average(grade_sum, number_of_grades):
+    #exercise 2 result is ther added if statement to account for not entering anything
+    if number_of_grades == 0:
+        return 0
     grade_average = int(grade_sum / number_of_grades)
     return grade_average
 
