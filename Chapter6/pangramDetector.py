@@ -1,0 +1,1 @@
+#detect if a sentence is a pangram (has every letter in alp)
