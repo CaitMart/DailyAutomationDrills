@@ -2,7 +2,6 @@
 
 def userInput(): 
     scale = str(input("Enter C or F to indicate Celsius or Fahrenheit: "))
-    
     degrees = int(input("Enter the number of degrees: "))
     isSafe(scale, degrees)
 
